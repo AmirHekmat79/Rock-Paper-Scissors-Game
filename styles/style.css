@@ -1,0 +1,49 @@
+/* Styling To All Elements -----> reset css */
+*{
+    padding : 0px;
+    margin : 0px;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+/* End Of Styling To All Elements -----> reset css */
+
+/* Styling To Body */
+
+/* End Of Styling To Body */
+
+body{
+    background: linear-gradient(#C9D6FF,#E2E2E2);
+    height:100vh;
+}
+
+/* styling To Images */
+.choose{
+    display : flex;
+    justify-content: space-around;
+}
+
+img{
+    width : 150px;
+    cursor : pointer;
+}
+.you img{
+    margin: 10px;
+}
+.ToggleOpacity1{
+    opacity: 25%;
+}
+
+/* End Of Styling To Images */
+
+/* winner message */
+.endingTime{
+    background: linear-gradient(#a8ff78 , #78ffd6);
+    box-shadow: 3px 3px 10px 3px green;
+    border-radius: 50%;
+    padding: 20px;
+}
+.winner{
+    font-size: 30px;
+}
+
+/* End Of winner message */
